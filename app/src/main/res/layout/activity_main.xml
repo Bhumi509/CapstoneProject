@@ -259,7 +259,6 @@
         app:layout_constraintWidth_percent="0.8">
 
         <ImageView
-            android:id="@+id/product4Image"
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:src="@drawable/recomended"

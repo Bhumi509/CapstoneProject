@@ -1,6 +1,9 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    alias(libs.plugins.google.gms.google.services)
+    alias(libs.plugins.kotlin.kapt)
+
 }
 
 android {
@@ -33,6 +36,10 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    kapt {
+        includeCompileClasspath = true
+    }
+    viewBinding { enable = true }
 }
 
 dependencies {
@@ -42,7 +49,22 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.firebase.auth.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    implementation(libs.firebase.database)
+    implementation(libs.firebase.ui.database)
+    implementation(libs.firebase.storage)
+    implementation(libs.firebase.ui.storage)
+    implementation(libs.glide)
+    implementation(libs.kotlin.stdlib)
+    implementation(libs.support.annotations)
+    kapt(libs.glide.compiler)
+    androidTestImplementation(libs.androidx.junit)
+    androidTestImplementation(libs.androidx.espresso.core)
+//    implementation ("com.google.firebase:firebase-auth-ktx:21.0.3")
+    implementation ("com.google.android.gms:play-services-auth:20.5.0")
+
 }

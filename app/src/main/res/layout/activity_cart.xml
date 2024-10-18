@@ -50,7 +50,7 @@
         app:layout_constraintTop_toBottomOf="@id/cartTitle"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintMarginTop="8dp" />
+        android:layout_marginTop="8dp" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/productCard1"
@@ -75,7 +75,7 @@
                 android:src="@drawable/product_1"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_margin="16dp" />
+                android:layout_margin="16dp" />
 
             <TextView
                 android:id="@+id/productTitle1"
@@ -98,7 +98,7 @@
                 android:textSize="14sp"
                 app:layout_constraintTop_toBottomOf="@id/productTitle1"
                 app:layout_constraintStart_toStartOf="@id/productTitle1"
-                app:layout_constraintMarginTop="4dp" />
+                android:layout_marginTop="4dp" />
 
             <Button
                 android:id="@+id/removeProductButton1"
@@ -109,8 +109,8 @@
                 android:textColor="@android:color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintMarginEnd="16dp"
-                app:layout_constraintMarginBottom="16dp" />
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 
@@ -122,8 +122,8 @@
         android:textSize="16sp"
         app:layout_constraintTop_toBottomOf="@id/productCard1"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintMarginTop="16dp"
-        app:layout_constraintMarginStart="16dp" />
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp" />
 
     <TextView
         android:id="@+id/subtotalValue"
@@ -133,7 +133,7 @@
         android:textSize="16sp"
         app:layout_constraintTop_toTopOf="@id/subtotalLabel"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintMarginEnd="16dp" />
+        android:layout_marginEnd="16dp" />
 
     <Button
         android:id="@+id/checkoutButton"
@@ -145,9 +145,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintMarginStart="16dp"
-        app:layout_constraintMarginEnd="16dp"
-        app:layout_constraintMarginBottom="16dp" />
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp" />
 
     <LinearLayout
         android:id="@+id/footer"
@@ -157,7 +157,7 @@
         app:layout_constraintBottom_toTopOf="@id/checkoutButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintMarginBottom="16dp">
+        android:layout_marginBottom="16dp">
 
         <TextView
             android:id="@+id/footerLinks"

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "608714410865",
+    "firebase_url": "https://chic-vault-default-rtdb.firebaseio.com",
+    "project_id": "chic-vault",
+    "storage_bucket": "chic-vault.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608714410865:android:6ecba5a166edc0e08784d0",
+        "android_client_info": {
+          "package_name": "com.project.chicvault"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEge2HKhhkks_w7ydFKuYOL_GEJOjCwp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

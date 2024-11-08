@@ -13,31 +13,31 @@
         android:theme="@style/Theme.ChicVault"
         tools:targetApi="31">
         <activity
-            android:name=".ProfileActivity"
+            android:name=".views.ProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".OrderActivity"
+            android:name=".views.OrderActivity"
             android:exported="false" />
         <activity
-            android:name=".CartActivity"
+            android:name=".views.CartActivity"
             android:exported="false" />
         <activity
-            android:name=".ProductDetailActivity"
+            android:name=".views.ProductDetailActivity"
             android:exported="false" />
         <activity
-            android:name=".ListActivity"
+            android:name=".views.ListActivity"
             android:exported="false" />
         <activity
-            android:name=".SignUpActivity"
+            android:name=".views.SignUpActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".views.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".views.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashActivity"
+            android:name=".views.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

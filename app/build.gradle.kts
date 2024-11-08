@@ -50,6 +50,9 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.firebase.auth.ktx)
+    implementation(libs.play.services.analytics.impl)
+    implementation(libs.firebase.firestore)
+    implementation(libs.firebase.firestore)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -66,5 +69,7 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 //    implementation ("com.google.firebase:firebase-auth-ktx:21.0.3")
     implementation ("com.google.android.gms:play-services-auth:20.5.0")
+
+
 
 }

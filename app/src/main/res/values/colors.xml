@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Original Colors -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="pink">#F29191</color>
     <color name="app">#F5F5F5</color>
-<!--    <color name="app">#EEC4C4</color>-->
     <color name="light_pink">#EEC4C4</color>
     <color name="font_color">#8d624d</color>
     <color name="choco">#8d624d</color>
+    <color name="primaryColor">#6200EE</color>
+    <color name="primaryVariant">#3700B3</color>
+    <color name="secondaryColor">#03DAC6</color>
+    <color name="background_color">#F5F5F5</color>
 
+    <!-- Additional Colors for Professional Look -->
+    <color name="primary_pink">#D276A3</color> <!-- Muted, elegant pink for primary elements -->
+    <color name="background_grey">#F9F9F9</color> <!-- Light grey background for subtle contrast -->
+    <color name="dark_grey">#424242</color> <!-- Dark grey for text or icon contrast -->
+    <color name="header_text">#333333</color> <!-- Slightly darker grey for headers -->
+    <color name="accent_pink">#EEC4C4</color> <!-- Consistent soft accent pink -->
 </resources>
